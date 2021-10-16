@@ -15,6 +15,10 @@
   ```sh
   $ bundle install
   ```
+  Run migrations:
+  ```sh
+  $ rails db:migrate
+  ```
   Finally, run the test suite to verify that everything is working correctly:
   ```sh
   $ bundle exec rspec
@@ -24,7 +28,7 @@
   $ rails server
   ```
 
-  # Hoe to test the application
+  # How to test the application
   You can test it using postman, once the postman open, set url
   ```sh
   $ http://127.0.0.1:3000/api/reservations

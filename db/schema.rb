@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_15_164515) do
+ActiveRecord::Schema.define(version: 2021_10_16_041326) do
 
   create_table "guests", force: :cascade do |t|
     t.string "first_name"
@@ -29,7 +29,7 @@ ActiveRecord::Schema.define(version: 2021_10_15_164515) do
     t.string "currency"
     t.integer "nights"
     t.integer "number_of_guests"
-    t.integer "status"
+    t.string "status"
     t.decimal "total_paid_amount"
     t.integer "adults"
     t.integer "children"

@@ -3,7 +3,7 @@
    
    This project was built on:
    * Rails 6.1.4.1
-   * ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-darwin17]
+   * ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-darwin20]
    * sqlite3
    
    # Getting Started

@@ -92,5 +92,4 @@
             "status_type": "accepted",
             "total_paid_amount_accurate": "4300.00"
         }
-    ```
   }
